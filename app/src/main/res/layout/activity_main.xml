@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/button_start_record"
+        android:text="录音"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_stop_record"
+        android:text="停止录音"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_start_play"
+        android:text="Play"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_stop_play"
+        android:text="停止播放"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_hook"
+        android:text="hook"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""/>
+
+    </ScrollView>
+
+</android.widget.LinearLayout>
